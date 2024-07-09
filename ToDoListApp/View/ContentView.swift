@@ -47,8 +47,6 @@ struct MainContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        MainContentView()
-    }
+#Preview {
+    MainContentView()
 }
